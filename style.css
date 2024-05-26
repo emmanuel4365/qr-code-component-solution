@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  min-height: 686px;
+  min-height: 800px;
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
@@ -24,7 +24,6 @@ body {
 }
 
 main {
-  height: 652px;
   display: flex;
   align-items: center;
   justify-content: center;
