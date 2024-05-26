@@ -21,8 +21,16 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 70px;
+  /* gap: 70px; */
   /* padding: 60px 0; */
+}
+
+main {
+  height: 652px;
+  background-color: greenyellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
@@ -64,4 +72,23 @@ p {
 
 .heading {
   margin-bottom: 25px;
+}
+
+footer {
+  padding: 10px;
+}
+
+@media screen and (max-width: 350px) {
+  p {
+    font-size: 13.5px;
+  }
+
+  h2 {
+    font-size: 19.5px;
+  }
+
+  .container {
+    width: 290px;
+    height: 467px;
+  }
 }
